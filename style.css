@@ -1,9 +1,15 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .main{
     display: flex;
     flex-direction: column;
     background-color: pink;
     height: 1912px;
-    width: 1440px;
+    width: 1540px;
     max-width: 100%;
 }
 
@@ -15,27 +21,29 @@
 .a{
     display: flex;
     background-color: #1F2937;
-    flex: 28 28 auto;
+    flex: 28 28 0;
     flex-direction: column;
     color: white;
 }
 
 .b{
     background-color: white;
-    flex:26 26 auto;
+    flex:26 26 0;
+    display: flex;
+    flex-direction: column;
 }
 .c{
     background-color:#E5E7EB ;
-    flex:22.4 22.4 auto ;
+    flex:22.4 22.4 0 ;
 }
 .d{
     background-color:white ;
-    flex: 18.6 18.6 auto;
+    flex: 18.6 18.6 0;
 }
 
 .e{
     background-color: #1F2937;
-    flex: 5 5 auto;
+    flex: 5 5 0;
 }
 
 
@@ -94,8 +102,85 @@ button{
     min-width: 200px;
 }
 
+/*----------------------section b-------------------------*/
 
-* {flex-wrap: wrap;}
+.b-title {
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+.b-wrapper{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    gap: 30px;
+    margin-top: -125px;
+    
+}
+
+.b-element {
+    
+    text-align: center;
+    width: 15%;
+    
+}
+
+.b-element img {
+    border: 3px solid #3882F6;
+    width: 150px;
+    height:150px;
+    border-radius: 16px;
+}
+.b-element div{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-right: 0;
+    padding-right: 1px;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.c-wrapper div{
+    
+}
+
+.c-element-a{
+    width: 50%;
+    height: auto;
+    margin-top: 1px;
+    align-self: center;
+    font-size: 40px;
+}
+.c-element-b{
+    align-self: flex-end;
+    width: 50%;
+    align-self: center;
+    text-align: right;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+/* {flex-wrap: wrap;}
 /*#3882F6 text blue color
 aba and abb containers need their width removed so they can wrap
 instead set the width to their parent and make it the sum of their width

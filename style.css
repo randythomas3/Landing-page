@@ -54,12 +54,7 @@ body{
     justify-content: center;
     flex: 1 1 auto;
 }
-.aba{
-    width: 40%;
-    border: 2px solid red;
-    height: 50%;
-    min-width: 200px;
-}
+
 
 .aba h1 {
     font-size: 3em;
@@ -91,7 +86,7 @@ button{
     justify-content: center;
     align-items: center;
     flex: 10 10 auto;
-    
+    flex-wrap: wrap;
 }
 
 .abb {
@@ -99,9 +94,14 @@ button{
     width: 40%;
     background-color: grey;
     height: 50%;
-    min-width: 200px;
+    min-width: 380px;
 }
-
+.aba{
+    width: 40%;
+    border: 2px solid red;
+    height: 50%;
+    min-width: 380px;
+}
 /*----------------------section b-------------------------*/
 
 .b-title {
@@ -122,14 +122,14 @@ button{
     align-items: center;
     gap: 30px;
     margin-top: -125px;
-    
+    flex-wrap: wrap;
 }
 
 .b-element {
     
     text-align: center;
     width: 15%;
-    
+    min-width: 135px;
 }
 
 .b-element img {
@@ -144,6 +144,7 @@ button{
     margin: 0;
     margin-right: 0;
     padding-right: 1px;
+    
 }
 
 .c{
@@ -172,8 +173,73 @@ button{
     font-size: 25px;
     margin-top: 18px;
 }
+/*-----------------section d---------------------------------*/
+.d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.box-d {
+    background-color: #3882F6;
+    width: 75%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.d-wrapper {
+margin: 0 auto;
+
+}
+
+.d-sign{ 
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    width: 122px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0 auto;
+}
 
 
+
+
+
+.d-element-a {
+   
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+
+.d-element-b {
+    font-size: 20px;
+    color: white;
+    
+}
+
+/*------------section e---------------------------------------------*/
+
+.e {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
 
 
 
